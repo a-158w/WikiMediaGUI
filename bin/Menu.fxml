@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="MasterPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <Button fx:id="CreateButton" layoutX="50.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleCreateButton" text="Create" />
+      <Text fx:id="MenuText" layoutX="124.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to WikiSpeak">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button fx:id="PlayButton" layoutX="118.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleViewPlayButton" prefHeight="25.0" prefWidth="179.0" text="View/Play Creations" />
+      <Button fx:id="DeleteButton" layoutX="303.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleDeleteButton" text="Delete" />
+      <Button fx:id="QuitButton" layoutX="371.0" layoutY="65.0" mnemonicParsing="false" onAction="#handleQuitButton" text="Quit" />
+   </children>
+</Pane>
